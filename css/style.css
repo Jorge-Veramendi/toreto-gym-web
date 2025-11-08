@@ -68,6 +68,15 @@ header {
   margin-top: 70px; /* separa del header fijo */
 }
 
+.hero img {
+  width: 300px; /* ← cambia el tamaño (ej. 250px, 400px, etc.) */
+  height: auto;
+  flex-direction: column;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
 .hero h1 {
   font-size: 3rem;
   font-weight: 800;
@@ -90,6 +99,7 @@ header {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s;
+  flex-direction: center;
 }
 
 .btn:hover {
